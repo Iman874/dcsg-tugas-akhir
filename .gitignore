@@ -1,0 +1,40 @@
+# Output eksperimen dan data besar tidak pernah di-commit
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset & bobot model (tidak dipublikasi)
+*.model
+*.kv
+*.npy
+*.pt
+*.pth
+*.pkl
+*.bin
+*.vec
+*.zip
+*.rar
+*.gz
+Dataset/
+Model/**/*.pkl
+
+# Hasil run lokal yang besar
+Evaluasi/output/
+logs/
+
+# Sistem / editor
+.DS_Store
+Thumbs.db
+*.docx
+*.pdf
+*.pptx
+~$*
+*.bak
+*.bak2
+
+# Kode notebook tidak dipublikasikan
+notebooks/
+*.ipynb
